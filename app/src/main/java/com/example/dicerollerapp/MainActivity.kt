@@ -16,7 +16,11 @@ class MainActivity : AppCompatActivity() {
             resultTextView.text = "6"
         }
     }
-}
+
+
+
+
+    }
 private fun rollDice() {
     val dice = Dice(6)
     val diceRoll = dice.roll()
